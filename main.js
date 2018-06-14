@@ -11,3 +11,18 @@ document.body.addEventListener('wheel',function(event){
         header.style.opacity = '1';
     }
 })
+
+
+
+// Scroll To top
+
+var backtoTop = document.querySelector('.top');
+
+
+backtoTop.addEventListener('click',function(event){
+     window.scrollTo({
+         top: 0,
+         behavior: 'smooth',
+        });
+})
+
